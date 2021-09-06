@@ -1,0 +1,549 @@
+
+.purple {
+    color: #7C40D5;
+}
+
+/* carousel start */
+
+.slide > div > img {
+    opacity: 0.8;
+}
+
+.caption {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    color: #fff;
+}
+
+.caption h1 {
+    font-size: 50px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.caption p {
+    font-size: 30px;
+}
+
+.caption button {
+    border: none;
+    border-radius: 3px;
+    padding: 10px 24px;
+    color: #7C40D5;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+.caption button:hover {
+    color: #fff;
+    background-color: #7C40D5;
+}
+
+/* carousel end */
+
+/* video start */
+.video {
+    padding: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.video-image {
+    width: 73%;
+}
+
+.video-title {
+    font-size: 35px;
+    color: #232055;
+    margin-top: 10px;
+}
+
+.video-description {
+    color: #373A5A;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.video-btn-group {
+
+}
+
+.video-btn-group-left > .btn {
+    margin-left: 0px;
+    /* margin-right: 30px; */
+    border: 1px solid #707070;
+    border-radius: 5px;
+    line-height: 30px;
+    font-size: 18px;
+    padding: 14px 32px;
+    margin-top: 25px;
+    color: #7C40D5;
+}
+
+.video-btn-group-left > .btn:first-child {
+    margin-right: 30px;
+}
+
+.video-btn-group > .btn {
+    border: 1px solid #707070;
+    border-radius: 5px;
+    line-height: 30px;
+    font-size: 18px;
+    padding: 14px 32px;
+    margin-left: 30px;
+    margin-top: 25px;
+    color: #7C40D5;
+}
+
+.video-btn-group > .btn:hover {
+    color: #fff;
+    background-color: #7C40D5;
+    box-shadow: 1px 1px 10px #8751D9;
+}
+
+.video-btn-group-left > .btn:hover {
+    color: #fff;
+    background-color: #7C40D5;
+    box-shadow: 1px 1px 10px #8751D9;
+}
+
+.video-btn-group > .active
+{
+    color: #fff;
+    background-color: #7C40D5;
+}
+
+.video-btn-group-left > .active
+{
+    color: #fff;
+    background-color: #7C40D5;
+}
+
+.video-btn-group > .active:hover{
+    box-shadow: 1px 1px 10px #8751D9;
+}
+
+.video-btn-group-left > .active:hover{
+    box-shadow: 1px 1px 10px #8751D9;
+}
+
+
+
+/* video end */
+
+/* follow start */
+.follow {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px;
+    margin-top: -40px;
+    padding-top: 120px;
+}
+
+.creators-image {
+    width: 75%;
+}
+
+/* follow end */
+
+/* categories start */
+.categories {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px;
+    position: relative;
+}
+
+.category-items {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+.category-title {
+    font-size: 40px;
+    color: #232055;
+}
+
+.category-sub-title {
+    font-size: 20px;
+    color: #4F4B70;
+}
+
+.category-item {
+    width: 198px;
+    padding: 25px 0px;
+    border-radius: 5px;
+}
+
+.category-item:hover {
+    /* background-color: #F8F8FF; */
+    background: none rgb(240, 245, 255);
+    cursor: pointer;
+}
+
+.category-item-image {
+    width: 100px;
+    height: 100px;
+    background-color: #F8F8FF;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.category-item-image:hover {
+    
+}
+
+.category-item-image > img {
+    width: 55%;
+    vertical-align: middle;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.category-item-title {
+    font-size: 18px;
+    color: #232055;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.category-item-title:hover {
+    cursor: pointer;
+}
+
+
+/* categories end */
+
+/* creators start */
+.creators {
+    max-width: 1200creatorpx;
+    margin: 0 auto;
+    padding: 80px;
+    text-align: center;
+    height: 800px;
+}
+
+.creators-title {
+    font-size: 45px;
+    color: #232055;
+    margin: 0 auto;
+    margin-top: 12%;
+}
+
+
+.creators-sub-title {
+    font-size: 25px;
+    color: #5E5E5E;
+    width: 65%;
+    margin: 10px auto;
+}
+
+.creators .btn {
+    border: 1px solid #7C40D5;
+    border-radius: 5px;
+    line-height: 30px;
+    font-size: 18px;
+    padding: 14px 32px;
+    margin-left: 30px;
+    margin-top: 25px;
+    color: #232055;
+}
+
+.creators .btn:hover {
+    color: #fff;
+    background-color: #7C40D5;
+    box-shadow: 1px 1px 10px #8751D9;
+}
+
+
+
+.creator {
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 1px 1px 5px #ddd;
+}
+
+.creator:hover {
+    cursor: pointer;
+}
+
+.creator1 {
+    top: 10%;
+    left: 37%;
+    z-index: 90;
+}
+
+.creator1-tip {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px #ccc;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.tip-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px 10px 15px;
+}
+
+.creator2 {
+    top: 28%;
+    left: 19%;
+    z-index: 80;
+}
+
+.creator3 {
+    top: 23%;
+    right: 19%;
+    z-index: 70;
+}
+
+.creator4 {
+    top: 50%;
+    left: 4%;
+    z-index: 60;
+}
+
+.creator5 {
+    top: 54%;
+    left: 24%;
+    z-index: 50;
+}
+
+.creator6 {
+    top: 39%;
+    right: 10%;
+    z-index: 40;
+}
+
+.creator7 {
+    bottom: 13%;
+    left: 15%;
+    z-index: 30;
+}
+
+.creator8 {
+    bottom: 20%;
+    left: 40%;
+    z-index: 20;
+}
+
+.creator9 {
+    bottom: 23%;
+    right: 35%;
+    z-index: 10;
+}
+
+.creator10 {
+    bottom: 13%;
+    right: 17%;
+    z-index: 5;
+}
+
+.creator11 {
+    bottom: 22%;
+    right: 2%;
+    z-index: 4;
+}
+
+.creator11-tip {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px #ccc;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 300px;
+    bottom: -140px;
+    left: -150px;
+}
+
+.dots {
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+
+/* creators end */
+
+.video {
+    position: relative;
+}
+
+.symbol {
+    position: absolute;
+}
+  
+.symbol img {
+    width: 280px;
+    height: 280px;
+}
+
+.symbol1 {
+    top: -80%;
+    right: 0%;
+}
+
+.symbol2 {
+    top: -17%;
+    left: 5%;
+}
+
+.symbol3 {
+    top: 75%;
+    right: 4%;
+    transform: rotate(-160deg);
+}
+
+.symbol4 {
+    top: -20%;
+    left: 4%;
+}
+
+@media only screen and (max-width: 1366px) {
+    .creator {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+    .caption h1 {
+        font-size: 40px;
+    }
+
+    .caption p {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .video {
+        padding-top: 30px;
+    }
+
+    .creators-image {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .video-image {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    .caption h1 {
+        font-size: 30px;
+    }
+
+    .caption p {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .follow {
+        margin-top: 0;
+    }
+    
+    .caption {
+        top: 25%;
+    }
+    .caption h1 {
+        font-size: 24px;
+    }
+    
+    .caption p {
+        font-size: 16px;
+    }
+
+    .caption button {
+        font-size: 10px;
+        padding: 6px 18px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .follow {
+        padding: 15px;
+    }
+    .creators {
+        padding: 15px;
+        height: 450px;
+    }
+
+    .creators-title {
+        font-size: 35px;
+        margin-top: 10%;
+    }
+    
+    
+    .creators-sub-title {
+        font-size: 15px;
+    }
+
+    .categories {
+        padding: 15px;
+    }
+
+    .category-item {
+        width: 170px;
+    }
+
+    .video {
+        padding: 15px;
+        padding-top: 30px;
+    }
+
+    .video-title {
+        font-size: 30px;
+    }
+
+    .video-description {        
+        font-size: 20px;
+    }
+
+    .video-btn-group > .btn {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .caption {
+        top: 15%;
+    }
+    .caption h1 {
+        font-size: 20px;
+    }
+    
+    .caption p {
+        font-size: 12px;
+    }
+
+    .caption button {
+        font-size: 6px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .video-btn-group > .btn {
+        font-size: 14px;
+    }
+}

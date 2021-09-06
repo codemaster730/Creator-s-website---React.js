@@ -1,0 +1,218 @@
+.header {
+    margin: 0 auto;
+    max-width: 1200px;
+    max-height: 146px;
+    display: flex;
+    justify-content: space-between;
+}
+
+    .navbar {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+        .path:hover {
+            cursor: pointer;
+        }
+
+        .path {
+            height: 30px;
+            width: 32px;
+        }
+
+        .path img {
+            width: 100%;
+            height: auto;
+        }
+
+        .nav-icons {
+            display: flex;
+            justify-content: flex-start;
+            margin-left: 80px;
+            margin-right: 40px;
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+            .nav-lang {
+                display: flex;   
+                justify-content: flex-start;
+                position: relative;
+            }
+
+                .dropdown {
+                    position: absolute;
+                    z-index: 10;
+                    top: 43px;
+                    left: -10px;
+                    background-color: #fff;
+                    border: 1px solid #ddd;
+                    border-radius: 5px;
+                    padding: 5px 10px;
+                    box-shadow: 3px 3px 10px #ddd;
+                }
+
+                .dropdown-invisible {
+                    display: none;
+                }
+
+                .dropdown-item {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 5px 0px;
+                }
+
+                .dropdown-item:focus, .dropdown-item:hover {
+                    color: #16181b;
+                    text-decoration: none;
+                    background: none;
+                }
+
+                .dropdown-item .angle-down {
+                    margin-top: 7px;
+                }
+
+                .dropdown-item .lang-flag {
+                    margin-top: -3px;
+                }
+
+                .dropdown-item .lang-flag img {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                }
+
+                .dropdown-item .icon-multilang {
+                    margin-top: 0;
+                }
+
+                .lang-flag img {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                }
+
+                .nav-lang:hover {
+                    cursor: pointer;
+                }
+
+                .angle-down {
+                    padding-top: 3px;
+                }
+
+            .signup {
+                margin-left: 25px;
+                margin-top: 5px;
+            }
+
+            .signup:hover {
+                cursor: pointer;
+            }
+
+            .signin {
+                margin-left: 25px;
+                margin-top: 5px;
+            }
+
+            .signin:hover {
+                cursor: pointer;
+            }
+
+            .nav-icons svg {
+                font-size: 20px;
+                color: #9E60DD;
+            }
+
+            .icon-multilang {
+                margin-left: 5px;
+                margin-right: 5px;
+                margin-top: 5px;
+            }
+    
+        .nav-search {
+            /* margin-left: 25px; */
+        }
+
+            .nav-search:hover {
+                cursor: pointer;
+            }
+
+            .nav-search svg {
+                font-size: 20px;
+                color: #9E60DD;
+            }
+
+    .logo {
+        width: 180px;
+        margin: 0 16px;
+    }
+
+        .logo:hover {
+            cursor: pointer;
+        }
+
+        .logo img {
+            width: 100%;
+            height: auto;
+        }
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .path {
+        width: 25px;
+        margin-right: 10px;
+    }
+
+    .nav-icons {
+        margin-left: 0px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+        .icon-multilang {
+            margin-top: 8px;
+        }
+
+        .signin {
+            margin-left: 5px;
+            margin-top: 8px;
+        }
+
+        .signup {
+            margin-left: 5px;
+            margin-top: 8px;
+        }
+
+        .nav-search svg {
+            font-size: 16px;
+        }
+
+        .angle-down {
+            padding-top: 7px;
+        }
+
+    .logo {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .signin {
+        display: none;
+    }
+
+    .signup {
+        display: none;
+    }
+
+    .nav-search {
+        display: none;
+    }
+}
