@@ -1,5 +1,9 @@
 ![alt text](https://github.com/7axiomsOfEuclid/Creator-s-website---React.js/blob/main/creators.png)
 
+# Tech Stack
+* Nodejs (v12.14.0)
+* Reactjs(v16.6)
+
 # Installation
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
