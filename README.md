@@ -5,9 +5,6 @@
 * Reactjs(v16.6)
 
 # Installation
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 Run the server following command:
 ```bash
 1. npm install
